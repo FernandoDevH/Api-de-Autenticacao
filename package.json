@@ -1,0 +1,32 @@
+{
+  "name": "api-de-autenticacao",
+  "version": "1.0.0",
+  "description": "Api criada para estudos de autentição em Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandoDevH/Api-de-Autenticacao.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernandoDevH/Api-de-Autenticacao/issues"
+  },
+  "homepage": "https://github.com/FernandoDevH/Api-de-Autenticacao#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1",
+    "node": "^19.6.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
